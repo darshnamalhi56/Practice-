@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+    html, body {
+    height: 100%;
+    margin: 0;
+}
+
+    body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+    }
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    .main{
+     width:100%;
+     min-height:100vh;
+     background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(about-as-service-contact-information-concept_53876-138509.avif);
+     background-position:center;
+background-size:cover;
+padding-bottom:50px;
+}
+.main h1{
+text-align:center;
+color:orange;
+padding-top:30px;
+font-size:40px;
+}
+
+.intro{
+font-size:22px;
+color:white;
+text-align:center;
+padding:20px;
+}
+.about-container{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+flex-wrap:wrap;
+}
+.about-box,
+.creator-profile{
+background:white;
+width:300px;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+text-align:center;
+}
+.about-box h2 i,
+.creator-profile h2 i {
+    color: orange;
+    margin-right: 8px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.about-box img {
+    width: 200px;  
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin: 15px 0;
+}
+.about-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.creator-profile img{
+width: 200px;  
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin: 15px 0;
+}
+.creator-profile p{
+font-size:15px;
+line-height:1.5;
+}
+.site-footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px 0;
+}
+
+.site-footer p{
+    margin-bottom:1px;
+    font-size:15px;
+}
+
+.site-footer .social-icons a{
+    color: white;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.site-footer .social-icons a:hover{
+    color:orange;
+    
+}
+</style>
+<body>
+    <div class="main">
+        <h1>About Us</h1>
+        <div>
+            <p class="intro">Welcome to our website. This website is created to share information about web design and information. </p>
+        <hr>
+        </div>
+        <div class="about-container">
+
+     <div class="about-box">
+       <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+     <img src="images.jpg" alt="Our Mission">
+     <p>Our mission is to help students learn web development and improve their skills in programming and design.</p>
+    </div>
+
+     <div class="about-box">
+     <h2><i class="fas fa-laptop-code"></i> What We Do</h2>
+     <img src="what we do.jpg" alt="">
+    <p>We provide simple tutorials and guides about HTML, CSS and website design for beginners.</p>
+   </div>
+   <div class="creator-profile">
+     <h2><i class="fas fa-user"></i> About the Creator</h2>
+    <img src="img.png" alt="DarShna">
+    <p>My name is <b>Darshna Malhi</b>. I am an IT student and I created this website as a learning project to improve my web design skills.</p>
+   </div>
+</div>
+<footer class="site-footer">
+  <div class="footer-container">
+    <p>&copy; 2026 Darshna Malhi.  All Rights Reserved. </p><br>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-google"></i></a>
+      
+    </div>
+  </div>
+</footer>
+</body>
+</html>
